@@ -1,0 +1,120 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+.fix
+{
+    clear: both;
+    overflow: hidden;
+}
+header
+{
+    overflow: hidden;
+    height: 100vh;
+}
+.vid-bg
+{
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.nav-area
+{
+    background-color: transparent;
+    
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+.logo
+{
+    margin: 10 50px;
+    height: 60px;
+
+    float: left;
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.logo span
+{
+    color: white;
+}
+.menu-area{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu-area li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.menu-area li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+.menu-area li.active a{
+    color:#f5bb00 ;
+}
+.menu-area li a:hover
+{
+    color: #f5bb00;
+}
+.banner-text
+{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    left: 35%;
+    letter-spacing: 3px;
+}
+.banner-text h2{
+    color: #fff;
+    font-size: 80px;
+    margin: 0;
+ 
+    
+}
+.banner-text h2 span
+{
+    color: #fff;
+ 
+
+}
+.banner-text h3{
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+ }
+.btn{
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 0%;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 15px;
+    outline: none;
+}
+.btn:hover
+{
+    background-color: rgba(0,0,0,0.8);
+    color: whitesmoke;
+}
+
+
+
