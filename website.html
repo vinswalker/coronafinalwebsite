@@ -3,26 +3,78 @@
         <link rel="shortcut icon" href="imagesandfolder\head.ico" />
         <title>CORONA'20</title>
        <link rel="stylesheet" href="s.css"> 
-    </head>
+   <script src="javascript.js">
+      </script>
+     </head>
 
     <body >
-        <header class="fix">
+        
             <video src="imagesandfolder\video bg web.mp4" class="vid-bg" autoplay loop muted ></video>
             <div class="nav-area">
-                <div class="logo"><span>CORONA'20</span></div>
+                <div class="logo"><img src=" imagesandfolder\coronalogo.jpeg"><span>&nbspCORONA'20</span></div>
 
               
             </div> 
             <div class="banner-text">
                 <span ><h2>CORONA'20</h2></span>
                 <br>
-                <h3>ANNUAL TECHNO CULTURAL FEST OF <br> BPIT</h3>
+                <h3>ANNUAL TECHNO CULTURAL FEST OF <br> BPIT</h3>   
                 <h3>27<sup>th</sup> & 28<sup>th</sup> March </h3>
                 <button class="btn">GRAB YOUR PASSESS</button>
                 
             </div>
-
-           </header>
+            <label>
+                <input type="checkbox" >
+                    <span class="menu" onclick="myfunction()">
+                        <span class="hamburger"></span>
+                    </span>
+                   
+                    
+                    <ul>
+                        <img src="imagesandfolder\ticket.png" class="ticket"><li> <button type="button" id="button">GRAB YOUR PASSES</button></li>
+                        <br>
+                        <li><a href="*">HOME</a></li>
+                        <li><a href="*">ABOUT US</a></li>
+                        <li><a href="*">GALLARY</a></li>
+                        <li><a href="*">PAST STARS</a></li>
+                        <li><a href="*">OUR SPONSERS</a></li>
+                        <li><a href="*">PAST STATS</a></li>
+                        <li><a href="*">CONTACT US</a></li>
+                    
+                    </ul>
+    
+                    <span id="icons">
+            
+                        <a href="*"><img class="iconsubclass" src="imagesandfolder\a.png" ></a>
+                        <a href="*"><img class="iconsubclass" src="imagesandfolder\b.png" ></a>
+                        <a href="*"><img class="iconsubclass" src="imagesandfolder\c.png" ></a>
+                        <a href="*"><img class="iconsubclass" src="imagesandfolder\d.png" ></a>
+                        
+                    </span>
+                   
+                </label>
+<!-- countdown -->
+                <div id="clockdiv" style="position: relative;left:-8px;top:200px" onclick="myfunction()"> 
+                    <div> 
+                        <span class="days" id="day"></span> 
+                       <div class="smalltext">Days</div> 
+                    </div> 
+                    <div> 
+                        <span class="hours" id="hour"></span> 
+                       <div class="smalltext">Hours</div> 
+                   </div> 
+                   <div> 
+                       <span class="minutes" id="minute"></span> 
+                       <div class="smalltext">Minutes</div> 
+                   </div> 
+                   <div> 
+                        <span class="seconds" id="second"></span> 
+                        <div class="smalltext">Seconds</div> 
+                   </div> 
+           
+               </div> 
+<!-- countdownends -->
+        
 
 
     </body>
