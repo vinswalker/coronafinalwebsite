@@ -1,0 +1,118 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+.fix
+{
+    clear: both;
+    overflow: hidden;
+    
+}
+header
+{
+    overflow: hidden;
+    height: 100vh;
+    top: 0;
+}
+.vid-bg
+{
+    opacity: 1;
+    position: absolute;
+    min-width: 100%;
+}
+.nav-area
+{
+    background-color: transparent;
+    
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+.logo
+{
+    margin: 0 50px;
+    height: 60px;
+    float: left;
+    color: #fff;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.logo span
+{
+    color: #f5bb00;
+}
+.menu-area{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu-area li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.menu-area li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+.menu-area li.active a{
+    color:#f5bb00 ;
+}
+.menu-area li a:hover
+{
+    color: #f5bb00;
+}
+.banner-text
+{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    left: 35%;
+}
+.banner-text h2{
+    color: #fff;
+    font-size: 80px;
+    margin: 0;
+    text-shadow: 5px 5px black;
+    
+}
+.banner-text h2 span
+{
+    color: #fff;
+    text-shadow: 5px 5px black;
+
+}
+.banner-text h3{
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+.btn{
+    display: inline-block;
+    margin-top: 25%;
+    margin-left: 5%;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 25px;
+    outline: none;
+}
+.btn:hover
+{
+    background-color: rgba(0,0,0,0.8);
+    color: whitesmoke;
+}
+
+
+
